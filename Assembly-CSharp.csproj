@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>../RimWorld_v0.0.250 PC/RimWorld250Win_Data/Managed/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>../RimWorld_v0.0.250 PC/RimWorld250Win_Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../RimWorld_v0.0.250 PC/RimWorld250Win_Data/Managed/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>../RimWorld_v0.0.250 PC/RimWorld250Win_Data/Managed/Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
